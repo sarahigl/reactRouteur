@@ -11,20 +11,20 @@ import './App.css'
 function Root(){
   return(
     <>
-    <header>
-      <h1>React project with router</h1>
-      <nav>
-        <NavLink to={"/"}>Accueil</NavLink>
-        <br />
-        <NavLink to={"/portfolio"}>portfolio</NavLink>
-        <br />
-        <NavLink to={"/contact"}>contact</NavLink>
-      </nav>
+    <header className="header">
+        <h1>Sarah's React Hub</h1>
+        <nav className="nav">
+          <NavLink to={"/"} className="nav-link">Accueil</NavLink>
+          <NavLink to={"/portfolio"} className="nav-link">Portfolio</NavLink>
+          <NavLink to={"/contact"} className="nav-link">Contact</NavLink>
+        </nav>
       </header>
     <main>
       <Outlet/>
     </main>
-    <footer></footer>
+    <footer className="footer">
+      <p>© 2023 Sarah's React Hub. Tous droits réservés.</p>
+    </footer>
     </>
   )
 }
