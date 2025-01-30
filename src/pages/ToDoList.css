@@ -1,0 +1,22 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  
+  .todolist{
+    background-color: rgb(255, 207, 223);
+    padding: 50px;
+    width: 550px;
+  }
+  .green{
+    background-color: yellowgreen;
+  }
+  .orange{
+    background-color: orange;
+  }
+  button{
+    margin: 10px;
+  }

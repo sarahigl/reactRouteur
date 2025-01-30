@@ -1,0 +1,39 @@
+/* .card1 {
+padding: 2em;
+}
+.backgroundOrange> div{
+width: 25px;
+}
+.backgroundOrange :hover{
+background-color: orange;
+}
+.selected{
+background-color: orange;
+border-radius: 50%;
+}
+.month {
+background-color: orange;
+font-size: 2rem;
+text-align: center;
+padding: 10px;
+border-radius: 5px;
+}
+.grid-7 {
+display: grid;
+grid-template-columns: repeat(7, 1fr);
+gap: 5px;
+text-align: center;
+}
+.grid-7 > div {
+width: 50px;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bold;
+border-radius: 5px;
+}
+.grid-7.days > div {
+margin: 3px;
+border: 1px solid gray;
+} */

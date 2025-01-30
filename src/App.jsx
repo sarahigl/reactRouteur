@@ -1,4 +1,3 @@
-import { Children, useState } from 'react'
 import { createBrowserRouter, NavLink, Outlet, RouterProvider } from 'react-router-dom'
 import Accueil from './pages/Accueil'
 import Calendar from './pages/Calendar'
